@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-06T13:30:08 IST" name="Default suite" finished-at="2022-06-06T13:30:18 IST" duration-ms="9888">
+    <groups>
+    </groups>
+    <test started-at="2022-06-06T13:30:08 IST" name="Default test" finished-at="2022-06-06T13:30:18 IST" duration-ms="9888">
+      <class name="testcasesPOM.VerifyPages">
+        <test-method is-config="true" signature="set()[pri:0, instance:testcasesPOM.VerifyPages@7ef82753]" started-at="2022-06-06T13:30:08 IST" name="set" finished-at="2022-06-06T13:30:08 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method is-config="true" signature="Bassclass()[pri:0, instance:testcasesPOM.VerifyPages@7ef82753]" started-at="2022-06-06T13:30:10 IST" name="Bassclass" finished-at="2022-06-06T13:30:15 IST" duration-ms="5406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bassclass -->
+        <test-method signature="testingpages(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcasesPOM.VerifyPages@7ef82753]" started-at="2022-06-06T13:30:15 IST" name="testingpages" data-provider="fetchData" finished-at="2022-06-06T13:30:18 IST" duration-ms="2780" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CSBANK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CSBANKOP]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1Q1Q1Q1Q]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingpages -->
+      </class> <!-- testcasesPOM.VerifyPages -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
